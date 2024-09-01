@@ -1,32 +1,8 @@
 package com.david.bank.domain.model;
 
-public class News {
+import jakarta.persistence.Entity;
 
-    private long id;
-    private String icon;
-    private String description;
+@Entity(name = "news_tb")
+public class News extends BaseItem {
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    public String getIcon() {
-        return icon;
-    }
-
-    public void setIcon(String icon) {
-        this.icon = icon;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 }
