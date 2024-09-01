@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: bank-backend
+    env: docker
+    image: davidmateusreis/bank-backend:latest
